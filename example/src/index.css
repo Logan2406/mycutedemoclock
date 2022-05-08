@@ -12,3 +12,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-div
+{
+ background-color:rgb(25, 228, 197);
+ box-shadow:0 4px 8px 0 rgba(4, 6, 6, 0.5), 0 6px 20px 0 rgba(10, 18, 18, 0.5);
+ border-radius: 20px;
+ width: 950px;
+ box-sizing: border-box;
+ margin:20px
+}
+
+.date-div
+{
+  display: flex;
+  flex-direction: column;
+  padding-left:10px;
+  padding-right:10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color:
+  rgb(25, 228, 197)
+  rgb(25, 228, 197)
+  rgb(25, 228, 197);
+  color:rgb(25, 228, 197);
+  box-shadow:0 4px 8px 0 rgba(4, 6, 6, 0.5), 0 6px 20px 0 rgba(10, 18, 18, 0.5);
+  background-color: #1e3737;
+}
+
+.date-div h3
+{
+  font-size: 35px;
+}
+
+.time-div
+{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+}
+
+.hour,.min,.sec,.sep,.ap
+{
+  color:rgb(25, 228, 197);
+}
+
+h4,h3
+{
+  margin: 0;
+  padding: 0;
+
+}
+.hour, .min , .sec
+{
+  background-color: #1e3737;
+  font-size: 6rem;
+  min-height: 2em;
+  min-width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:0 4px 8px 0 rgba(4, 6, 6, 0.5), 0 6px 20px 0 rgba(10, 18, 18, 0.5);
+  border-radius: 10px;
+  border: 2px solid;
+  border-color:
+  rgb(25, 228, 197)
+  rgb(25, 228, 197)
+  rgb(25, 228, 197);
+}
+.sep
+{
+  font-size: 50px;
+  box-shadow:
+  rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+  rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+
+  text-shadow: 2px 2px 4px #000000;
+  color:#1e3737;
+}
+
+
+.ap
+{
+  align-self:flex-end;
+  text-shadow: 2px 2px 4px #000000;
+  color:#1e3737;
+}
+
+.ap h4{
+  font-size: 35px;
+}
+
+

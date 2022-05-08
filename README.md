@@ -15,12 +15,12 @@ npm install --save mycutedemoclock
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'mycutedemoclock'
+import {MyCuteClock} from 'mycutedemoclock'
 import 'mycutedemoclock/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyCuteClock/>
   }
 }
 ```
