@@ -25,6 +25,8 @@ class Example extends Component {
 }
 ```
 
+## Screenshot
+![Screenshot](democlock.PNG)
 ## License
 
 MIT © [Logan2406](https://github.com/Logan2406)
